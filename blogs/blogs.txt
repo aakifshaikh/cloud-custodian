@@ -1,0 +1,22 @@
+# Blogs at Medium
+1. What is a Cloud Custodian?
+https://ismsguy.medium.com/what-is-a-cloud-custodian-c33b37b6060?sk=abdf0ee30e5ea4fe2cd15a346005ac16
+
+2. Propagating Tags from provider level down to all resources using Terraform Template
+https://ismsguy.medium.com/propagating-tags-from-provider-level-down-to-all-resources-using-terraform-template-4075bfc6ba93?sk=fe4a095a54f596fabb7d0db45f00d2e4
+
+3. Tried replacing the Cloud Custodian with Something else…
+https://ismsguy.medium.com/tried-replacing-the-cloud-custodian-with-something-else-1ffcf9c76dc8?sk=4e3694d893f27d7c447d70e3379c2b0e
+
+4. Treating the Mishmash of Missing Tag Resources in AWS using the Cloud Custodian (Part 1)
+https://ismsguy.medium.com/treating-the-mishmash-of-missing-tag-resources-in-aws-using-the-cloud-custodian-part-1-63ca506f12f2?sk=7ef5a2582f6f782df667138dba0b19a0
+
+5. Cryptographic Hashing in simple words
+https://ismsguy.medium.com/cryptographic-hashing-in-simple-words-eb9a94bb9c65?sk=62969d3b2e689bb555358ffe1feeb2a2
+
+# Other Sources
+1. Tips From the Trenches: Cloud Custodian–Automating AWS Security, Cost and Compliance
+https://www.code42.com/blog/tips-from-the-trenches-cloud-custodian-automating-aws-security-cost-and-compliance/
+
+2. Tips From the Trenches: Using Slack to Enhance Security
+https://www.code42.com/blog/tips-from-the-trenches-using-slack-to-enhance-security/

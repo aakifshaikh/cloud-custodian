@@ -1,0 +1,83 @@
+vars:
+  absent-tags-filter: &absent-tags
+    - "tag:owner": absent
+    - "tag:service": absent
+    - "tag:data_class": absent
+  sec-tags: &sec-tags
+    owner: abc@example.com
+    service: project-aladdin
+    data_class: confidential
+
+policies:
+
+# Tag the Lambda Functions created by Cloud Custodian
+- name: misc-na-lambda-tag-custodian-component
+  resource: aws.lambda
+  comments: |
+    Find all Lambda functions created by Cloud Custodian that are not following the Mandatory Tagging Requirement.
+    Tag Lambda Functions with the owner and service as stated in variables.
+    This policy only applies to an existing lambda function.
+  filters:
+    - or: *absent-tags
+    - type: value
+      key: FunctionName
+      value: "custodian-*"
+      op: glob
+  mode:
+    schedule: "rate(7 days)"
+    type: periodic
+    execution-options:
+      output_dir: s3://BUCKETNAME/CustodianLogs/{account_id}/
+    tags: *sec-tags 
+    runtime: python3.8
+  actions:
+    - type: tag
+      tags: *sec-tags
+
+# Tag the CloudWatch Log Group used by Cloud Custodian
+- name: misc-na-log-group-tag-custodian-component
+  resource: aws.log-group
+  comments: |
+    Find all Cloudwatch Log Groups created by Cloud Custodian that are not following the Mandatory Tagging Requirement.
+    Tag log-groups with the user who created it.
+    This policy does not apply on existing log-groups.
+  filters:
+    - or: *absent-tags
+    - type: value
+      key: logGroupName
+      value: "/aws/lambda/custodian-*"
+      op: glob
+  mode:
+    schedule: "rate(7 days)"
+    type: periodic
+    execution-options:
+      output_dir: s3://BUCKETNAME/CustodianLogs/{account_id}/
+    tags: *sec-tags 
+    runtime: python3.8
+  actions:
+    - type: tag
+      tags: *sec-tags
+
+# Tag the CloudWatch Event-Rule used by Cloud Custodian
+- name: misc-na-cw-event-rule-tag-custodian-component
+  resource: aws.event-rule
+  comments: |
+    Find all event-rule created by Cloud Custodian that are not following the Mandatory Tagging Requirement.
+    Tag event-rule with the user who created it.
+    This policy does not apply on existing event-rule.
+  filters:
+    - or: *absent-tags
+    - type: value
+      key: Name
+      value: "custodian-*"
+      op: glob
+  mode:
+    schedule: "rate(7 days)"
+    type: periodic
+    execution-options:
+      output_dir: s3://BUCKETNAME/CustodianLogs/{account_id}/
+    tags: *sec-tags 
+    runtime: python3.8
+  actions:
+    - type: tag
+      tags: *sec-tags
