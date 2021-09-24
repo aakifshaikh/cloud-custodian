@@ -14,6 +14,21 @@ https://ismsguy.medium.com/treating-the-mishmash-of-missing-tag-resources-in-aws
 5. Cryptographic Hashing in simple words
 https://ismsguy.medium.com/cryptographic-hashing-in-simple-words-eb9a94bb9c65?sk=62969d3b2e689bb555358ffe1feeb2a2
 
+6. Cloud Custodian Policies for CIS AWS Foundations Benchmark (Part 1)
+https://ismsguy.medium.com/cloud-custodian-policies-for-cis-aws-foundations-benchmark-part-1-43d711effa4b
+
+7. Cloud Custodian Policies for CIS AWS Foundations Benchmark (Part-2)
+https://ismsguy.medium.com/cloud-custodian-policies-for-cis-aws-foundations-benchmark-part-2-6101148cebb7
+
+8. A Watchman for Your Cloud that never sleeps, and it’s free!
+https://ismsguy.medium.com/a-watchman-for-your-cloud-that-never-sleeps-and-its-free-676682c903df
+
+9. Auto-Tag Cloud Custodian Policies for Azure
+https://ismsguy.medium.com/auto-tag-cloud-custodian-policies-for-azure-405693bbace0
+
+10. Identify the resources with missing tags using the Cloud Custodian for Azure
+https://ismsguy.medium.com/missing-tag-cloud-custodian-policies-for-azure-f4f97c0ddbb1
+
 # Other Sources
 1. Tips From the Trenches: Cloud Custodian–Automating AWS Security, Cost and Compliance
 https://www.code42.com/blog/tips-from-the-trenches-cloud-custodian-automating-aws-security-cost-and-compliance/
