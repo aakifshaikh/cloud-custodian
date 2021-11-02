@@ -29,6 +29,27 @@ https://ismsguy.medium.com/auto-tag-cloud-custodian-policies-for-azure-405693bba
 10. Identify the resources with missing tags using the Cloud Custodian for Azure
 https://ismsguy.medium.com/missing-tag-cloud-custodian-policies-for-azure-f4f97c0ddbb1
 
+11. Cloud Custodian Policies for SQL Database and SQL Server
+https://ismsguy.medium.com/cloud-custodian-policies-for-sql-database-and-sql-server-3f01b0e4fa21
+
+12. Cloud Custodian Policies for Azure WebApp
+https://ismsguy.medium.com/cloud-custodian-policies-for-azure-webapp-57d38428fe1b
+
+13. Count the Azure Resources using the Cloud Custodian
+https://ismsguy.medium.com/count-the-azure-resources-using-the-cloud-custodian-a902e55bacb2
+
+14. Identify Unencrypted AWS Resources using Cloud Custodian
+https://ismsguy.medium.com/identify-unencrypted-aws-resources-using-cloud-custodian-b2345a188874
+
+15. Identify AWS Resources Exposed to the World using Cloud Custodian
+https://ismsguy.medium.com/identify-aws-resources-exposed-to-the-world-using-cloud-custodian-dc0fd486c73d
+
+16. Cloud Custodian Policies for CIS AWS Foundations Benchmark (Part-3)
+https://ismsguy.medium.com/cloud-custodian-policies-for-cis-aws-foundations-benchmark-part-3-eeced31625da
+
+17. Cloud Custodian Policies for CIS AWS Foundations Benchmark (Part-4)
+https://ismsguy.medium.com/cloud-custodian-policies-for-cis-aws-foundations-benchmark-part-4-c82327c637e3
+
 # Other Sources
 1. Tips From the Trenches: Cloud Custodian–Automating AWS Security, Cost and Compliance
 https://www.code42.com/blog/tips-from-the-trenches-cloud-custodian-automating-aws-security-cost-and-compliance/
