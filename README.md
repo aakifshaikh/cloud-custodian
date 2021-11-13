@@ -65,3 +65,12 @@ https://ismsguy.medium.com/cloud-custodian-policies-for-cis-aws-foundations-benc
 
 17. Cloud Custodian Policies for CIS AWS Foundations Benchmark (Part-4)
 https://ismsguy.medium.com/cloud-custodian-policies-for-cis-aws-foundations-benchmark-part-4-c82327c637e3
+
+18. Cloud Custodian Policies for CIS AWS Foundations Benchmark (Part 1)
+https://ismsguy.medium.com/auto-remediation-for-missing-tags-in-aws-using-cloud-custodian-part-1-1d09fa39349d
+
+19. Auto-remediation for missing tags in AWS using Cloud Custodian — Part 2
+https://ismsguy.medium.com/auto-remediation-for-missing-tags-in-aws-using-cloud-custodian-part-2-b3f901c378cb
+
+20. Auto-remediation for missing tags in AWS using Cloud Custodian — Part 3
+https://ismsguy.medium.com/auto-remediation-for-missing-tags-in-aws-using-cloud-custodian-part-3-2f889af6c90f
