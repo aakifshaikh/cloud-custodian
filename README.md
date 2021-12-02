@@ -74,3 +74,6 @@ https://ismsguy.medium.com/auto-remediation-for-missing-tags-in-aws-using-cloud-
 
 20. Auto-remediation for missing tags in AWS using Cloud Custodian — Part 3
 https://ismsguy.medium.com/auto-remediation-for-missing-tags-in-aws-using-cloud-custodian-part-3-2f889af6c90f
+
+21. Relationship between the Cloud Custodian Lambda Function and the Cloudwatch Event Rule
+https://ismsguy.medium.com/relationship-between-the-cloud-custodian-lambda-function-and-the-cloudwatch-event-rule-74543d2358ff
