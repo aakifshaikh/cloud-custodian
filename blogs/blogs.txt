@@ -62,6 +62,12 @@ https://ismsguy.medium.com/auto-remediation-for-missing-tags-in-aws-using-cloud-
 21. Relationship between the Cloud Custodian Lambda Function and the Cloudwatch Event Rule 
 https://ismsguy.medium.com/relationship-between-the-cloud-custodian-lambda-function-and-the-cloudwatch-event-rule-74543d2358ff
 
+22. Cloud Custodian Policies for CIS Microsoft Azure Foundations Benchmark (Part 1)
+https://ismsguy.medium.com/cloud-custodian-policies-for-cis-microsoft-azure-foundations-benchmark-part-1-569afdc3ba0f
+
+23. Cloud Custodian Policies for CIS Microsoft Azure Foundations Benchmark (Part 2)
+https://ismsguy.medium.com/cloud-custodian-policies-for-cis-microsoft-azure-foundations-benchmark-part-2-eee293a4c113
+
 # Other Sources
 1. Tips From the Trenches: Cloud Custodian–Automating AWS Security, Cost and Compliance
 https://www.code42.com/blog/tips-from-the-trenches-cloud-custodian-automating-aws-security-cost-and-compliance/
